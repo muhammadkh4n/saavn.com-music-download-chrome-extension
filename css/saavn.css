@@ -1,0 +1,11 @@
+#now-playing .meta-wrap {
+    position: relative;
+}
+#download-song {
+    position: absolute;
+    float: right;
+    right: 250px;
+    margin: -2px -129px 0 0;
+    padding: 3px 9px;
+    text-align: center;
+}

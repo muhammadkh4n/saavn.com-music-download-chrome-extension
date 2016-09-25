@@ -1,0 +1,47 @@
+body {
+    background-color: #e4e6ea;
+    width: 400px;
+    color: #393939;
+}
+
+h1 {
+    font-size: 1.6em;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+h1 img {
+    position: absolute;
+    right: 0;
+    width: 24px;
+}
+
+dt, dd {
+    float: left;
+    margin: 0;
+}
+
+dt {
+    width: 30%;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+dd {
+    width: 70%;
+}
+
+dl {
+    overflow: hidden;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+a {
+    color: #922ceb;
+}
+
+a:hover {
+    color: #019052;
+}

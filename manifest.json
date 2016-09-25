@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Saavn Downloader",
+  "version": "1.0.0",
+  "description": "Download mp3 from saavn website",
+  "icons": {
+    "16": "img/saavn-icon-16.png",
+    "48": "img/saavn-icon-48.png",
+    "128": "img/saavn-icon-128.png"
+  },
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "img/icon19.png"
+    },
+    "default_title": "Saavn Downloader",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.saavn.com/*"],
+      "css": ["css/saavn.css"],
+      "js": ["js/saavn.js"]
+    }
+  ],
+  "permissions": [
+    "http://www.saavn.com/*",
+    "downloads"
+  ],
+  "author": "Muhammad Khan"
+}
